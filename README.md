@@ -1,9 +1,9 @@
-Laravel-Jobs
+Laravel-Jobs :
 ============
 
 A Laravel 4 package for adding jobs listings to a website
 
-## Features
+## Features :
 
 * Jobs index and detail page functionality with search
 * Ability to apply for a job and upload a CV
@@ -17,14 +17,14 @@ A Laravel 4 package for adding jobs listings to a website
 * Configure the rendered views so you can use one in your app rather than the one in the package
 * Make use of partials in your own view so you can add extra stuff around the partial
 
-## Comes with a
+## Comes with a :
 
 * Migration for creating the fbf_jobs table (N.B. The search function makes use of MySQL Full Text search, so the engine is set to MyISAM)
 * Model, controller and views (main view and partials)
 * Built in configurable routes
 * Faker seed to seed your database with loads of good test data
 
-## Installation
+## Installation :
 
 Add the following to you composer.json file
 
@@ -48,11 +48,11 @@ Run the migration
 
 Optionally copy the administrator config to your administrators model config directory, if you have one
 
-## Configuration
+## Configuration :
 
 There are loads of options in the config file, check it out.
 
-## Administrator
+## Administrator :
 
 You can use the excellent Laravel Administrator package by frozennode to administer your jobs.
 
@@ -60,7 +60,7 @@ http://administrator.frozennode.com/docs/installation
 
 A ready-to-use model config file for the Job model (jobs.php) is provided in the src/config/administrator directory of the package, which you can copy into the app/config/administrator directory (or whatever you set as the model_config_path in the administrator config file).
 
-## Faker seed
+## Faker seed :
 
 The package comes with a seed that can populate the table with a whole bunch of sample jobs. To run it:
 
